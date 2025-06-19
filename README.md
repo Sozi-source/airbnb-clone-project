@@ -51,6 +51,8 @@ Optimize for fast loading and responsive design.
 
 Prioritize mobile-first interfaces.
 
+
+
 Color Palette
 Usage	Hex Code
 Primary	#FF5A5F
@@ -80,7 +82,7 @@ Property Listings	Grid of all properties with search and filters
 Listing Details	Detailed page with images, host info, and booking UI
 Checkout Page	Minimalist form for secure booking and payment
 
-👥 Roles and Responsibilities
+👥 Project Roles and Responsibilities
 Role	Responsibilities
 Project Manager	Manages deadlines, milestones, and team coordination
 Frontend Devs	Implements responsive UI components using React
