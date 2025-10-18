@@ -87,3 +87,5 @@ Allows guests to post and manage reviews for properties. The system promotes tra
 
 ### 7. Database Optimizations  
 Implements **indexing** on frequently queried tables to enhance data retrieval performance. Incorporates **caching mechanisms** to reduce database load and improve system responsiveness.
+
+## API Security
