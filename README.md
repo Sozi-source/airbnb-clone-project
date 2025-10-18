@@ -63,7 +63,7 @@ This project is designed to provide a robust and scalable foundation for managin
 
   ## 🏗️ Feature Breakdown
 ### 1. API Documentation  
-The backend APIs are designed using the **OpenAPI standard** to ensure clarity, consistency, and ease of integration. The **Django REST Framework** powers the core RESTful endpoints for CRUD operations involving users, properties, and bookings, while **GraphQL** provides a flexible and efficient way to query backend data.
+- The backend APIs are designed using the **OpenAPI standard** to ensure clarity, consistency, and ease of integration. The **Django REST Framework** powers the core RESTful endpoints for CRUD operations involving users, properties, and bookings, while **GraphQL** provides a flexible and efficient way to query backend data.
 
 ### 2. User Authentication  
 - **Endpoints:** `/users/`, `/users/{user_id}/`  
