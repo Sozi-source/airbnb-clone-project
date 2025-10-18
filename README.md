@@ -58,4 +58,6 @@ This project is designed to provide a robust and scalable foundation for managin
 - POST /reviews/ - Create a new review
 - GET /reviews/{review_id}/ - Retrieve a specific review
 - PUT /reviews/{review_id}/ - Update a specific review
-- DELETE /reviews/{review_id}/ - Delete a specific revi
+- DELETE /reviews/{review_id}/ - Delete a specific review
+
+  ### Feature Breakdown
