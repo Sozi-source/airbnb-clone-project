@@ -88,4 +88,35 @@ Allows guests to post and manage reviews for properties. The system promotes tra
 ### 7. Database Optimizations  
 Implements **indexing** on frequently queried tables to enhance data retrieval performance. Incorporates **caching mechanisms** to reduce database load and improve system responsiveness.
 
-## API Security
+
+## 🔒 API Security
+Securing the backend APIs is essential to protect user data, ensure system integrity, and prevent unauthorized access. The following security measures are implemented in the Airbnb Clone project:
+
+### 1. Authentication  
+User authentication is enforced using token-based mechanisms such as JWT (JSON Web Tokens). This ensures that only verified users can access protected resources, preventing unauthorized usage of the API.
+
+### 2. Authorization  
+Role-based access control (RBAC) is applied to define permissions for different user roles such as guests, hosts, and administrators. This prevents users from performing actions beyond their assigned privileges.
+
+### 3. Data Encryption  
+Sensitive data, including passwords and payment details, are encrypted both in transit (via HTTPS) and at rest. This protects against data breaches and unauthorized interception of user information.
+
+### 4. Rate Limiting  
+API requests are monitored and restricted based on rate limits to prevent abuse, such as denial-of-service (DoS) attacks or excessive traffic from automated bots.
+
+### 5. Input Validation and Sanitization  
+All incoming data is validated and sanitized to prevent injection attacks such as SQL injection and cross-site scripting (XSS). This enhances the reliability and trustworthiness of user input.
+
+### 6. Secure Payment Processing  
+Payment-related APIs are secured with an additional layer of verification and encryption to protect financial transactions. This ensures compliance with secure payment standards and builds user confidence in the system.
+
+### 7. Logging and Monitoring  
+Comprehensive logging and monitoring are implemented to detect unusual activities and track API usage. This enables timely identification and response to potential security threats.
+
+**Why Security Matters:**  
+Securing the backend APIs is critical for maintaining user trust, protecting personal and financial data, and ensuring uninterrupted service. A strong security foundation prevents data leaks, fraud, and system compromise, ensuring that the platform operates safely and reliably for all users.
+
+## CI/CD Pipeline
+Continuous Integration (CI) and Continuous Deployment (CD) are automated processes that streamline the development workflow. CI ensures that code changes are automatically tested and integrated into the main branch, reducing bugs and integration issues. CD automates the deployment process, allowing updates to be released quickly and reliably to production.
+
+For this project, the CI/CD pipeline will help maintain code quality, improve development speed, and ensure consistent deployment across environments. Tools such as GitHub Actions can be used to automate testing and deployment workflows, while Docker can be used to containerize the application for consistent performance across systems.
