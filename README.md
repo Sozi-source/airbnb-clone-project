@@ -60,4 +60,30 @@ This project is designed to provide a robust and scalable foundation for managin
 - PUT /reviews/{review_id}/ - Update a specific review
 - DELETE /reviews/{review_id}/ - Delete a specific review
 
-  ### Feature Breakdown
+
+  ## 🏗️ Feature Breakdown
+### 1. API Documentation  
+The backend APIs are designed using the **OpenAPI standard** to ensure clarity, consistency, and ease of integration. The **Django REST Framework** powers the core RESTful endpoints for CRUD operations involving users, properties, and bookings, while **GraphQL** provides a flexible and efficient way to query backend data.
+
+### 2. User Authentication  
+- **Endpoints:** `/users/`, `/users/{user_id}/`  
+Handles user registration, authentication, and profile management. Authentication tokens are used to ensure data privacy and secure access to user-related resources.
+
+### 3. Property Management  
+- **Endpoints:** `/properties/`, `/properties/{property_id}/`  
+Allows hosts to create, update, retrieve, and delete property listings. Each property includes details such as images, location, pricing, and amenities to help users make informed booking decisions.
+
+### 4. Booking System  
+- **Endpoints:** `/bookings/`, `/bookings/{booking_id}/`  
+Enables users to make, update, and track bookings. Includes management of check-in and check-out details to provide a seamless booking experience.
+
+### 5. Payment Processing  
+- **Endpoints:** `/payments/`  
+Manages all payment-related transactions securely. Supports real-time confirmations and error handling for failed or pending payments.
+
+### 6. Review System  
+- **Endpoints:** `/reviews/`, `/reviews/{review_id}/`  
+Allows guests to post and manage reviews for properties. The system promotes transparency and trust within the platform through verified feedback.
+
+### 7. Database Optimizations  
+Implements **indexing** on frequently queried tables to enhance data retrieval performance. Incorporates **caching mechanisms** to reduce database load and improve system responsiveness.
